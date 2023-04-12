@@ -37,7 +37,7 @@ export default function Album() {
             </Typography>
             <Grid justifyContent="center" container>
               <Grid item>
-                <Button target="_blank" href="https://helmtoken.gitbook.io/lightpaper/">Read the lightpaper</Button>
+                <Button variant="outlined" target="_blank" href="https://helmtoken.gitbook.io/lightpaper/">Read the lightpaper</Button>
               </Grid>
             </Grid>
           </Container>
