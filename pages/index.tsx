@@ -1,5 +1,7 @@
 import * as React from 'react';
 import CssBaseline from '@mui/material/CssBaseline';
+import Grid from '@mui/material/Grid';
+import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
@@ -33,6 +35,11 @@ export default function Album() {
             <Typography variant="h5" align="center" color="text.secondary" paragraph>
               A store of value and CD earned by sacrificing XEN
             </Typography>
+            <Grid justifyContent="center" container>
+              <Grid item>
+                <Button target="_blank" href="https://helmtoken.gitbook.io/lightpaper/">Read the lightpaper</Button>
+              </Grid>
+            </Grid>
           </Container>
         </Box>
       </main>
