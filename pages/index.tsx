@@ -8,7 +8,7 @@ import Container from '@mui/material/Container';
 import AppBar from '../components/AppBar';
 import Footer from '../components/Footer';
 
-export default function Album() {
+export default function Home() {
   return (
     <Box>
       <CssBaseline />
