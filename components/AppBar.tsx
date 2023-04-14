@@ -1,5 +1,6 @@
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
+import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
 import Avatar from '@mui/material/Avatar';
 import Toolbar from '@mui/material/Toolbar';
@@ -10,27 +11,29 @@ import Connect from '../components/Connect';
 export default function MainAppBar() {
   return (
     <AppBar color="inherit" elevation={0} position="relative">
-      <Link underline="none" href="/">
-        <Toolbar>
-          <Grid alignItems="center" alignContent="center" justifyContent="space-between" container>
-            <Grid item>
-              <Grid alignItems="center" alignContent="center" container>
-                <Grid item>
+      <Toolbar>
+        <Grid alignItems="center" alignContent="center" justifyContent="space-between" container>
+          <Grid item>
+            <Grid alignItems="center" alignContent="center" container>
+              <Grid item>
+                <Link underline="none" href="/">
                   <Avatar sx={{ mr: 2 }} src="/logo.png"></Avatar>
-                </Grid>
-                <Grid item>
-                  <Typography variant="h6" color="inherit" noWrap>
-                    Helm
-                  </Typography>
-                </Grid>
+                </Link>
+              </Grid>
+              <Grid item>
+                <Typography variant="h6" color="inherit" noWrap>
+                  Helm
+                </Typography>
               </Grid>
             </Grid>
-            <Grid item>
-              <Connect />
-            </Grid>
           </Grid>
-        </Toolbar>
-      </Link>
+          <Grid item>
+            <Button href="https://app.helmtoken.com">
+              App
+            </Button>
+          </Grid>
+        </Grid>
+      </Toolbar>
     </AppBar>
   );
 }
