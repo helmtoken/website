@@ -23,15 +23,6 @@ export default function Home() {
           }}
         >
           <Container maxWidth="sm">
-            <Typography
-              component="h1"
-              variant="h2"
-              align="center"
-              color="text.primary"
-              gutterBottom
-            >
-              Helm
-            </Typography>
             <Typography variant="h5" align="center" color="text.secondary" paragraph>
               A store of value and CD earned by sacrificing XEN
             </Typography>
