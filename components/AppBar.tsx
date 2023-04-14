@@ -6,7 +6,6 @@ import Avatar from '@mui/material/Avatar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Link from '../src/Link';
-import Connect from '../components/Connect';
 
 export default function MainAppBar() {
   return (
