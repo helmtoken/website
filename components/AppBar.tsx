@@ -13,7 +13,10 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 
-const pages = [{ title: 'App', href: 'https://app.helmtoken.com/' }];
+const pages = [
+  { title: 'App', href: 'https://app.helmtoken.com/' },
+  { title: 'Community', href: '/community' }
+];
 const settings = ['Introduction', 'Helm vs. Bitcoin', 'Documentation', 'Media kit', 'Twitter', 'Telegram', 'Source code'];
 
 function ResponsiveAppBar() {
